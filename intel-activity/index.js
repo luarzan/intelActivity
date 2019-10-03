@@ -100,7 +100,7 @@ let arryPos = [
 ]
 var config = {
     headers:{
-        'Authorization': 'bearer AAAAAAAAAAAAAAAAAAAAADqqAAEAAAAAYCGuyJQlYLlH5v%2B4ZBE%2FtiRFwC8%3D2CCzucOsZIamPciCjZjlnKuCz2pB4B74xNPEoQHrxQwMXvW25U'
+        'Authorization': 'token__here'
     }
 }
 const API = 'https://api.twitter.com/1.1/search/tweets.json?q=%23Meteorito';

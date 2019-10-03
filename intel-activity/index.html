@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>EscuelaJS Reto 05</title>
+  <link type="text/css" href="index.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="overlay">
+            <div class="tweets-counter__final">
+                    <img class="tweets-counter__img-final" src="assets/twitterLogo.png" alt="twitter-logo">
+                    <p class="tweets-counter__text-final">0</p>
+            </div>
+    </div>
+    <div class="video-container">
+        <video class="video-content" loop autoPlay >
+            <source src="assets/Brooklyn-bridge.mp4"/>
+        </video>
+    </div>
+    <div class="general-container">
+        <div class="left">
+                <div class="tweets-counter">
+                        <img class="tweets-counter__img" src="assets/twitterLogo.png" alt="twitter-logo">
+                        <p class="tweets-counter__text">0</p>
+                </div>
+                <div class="timer-actividad">
+                        <p class="timer-text">
+                            <span id="minutos-actividad">02</span><span class="dots-actividad">:</span><span id="segundos-actividad">00</span>
+                        </p>
+                </div>
+            <div class="text-container">
+                <figure class="logo-container">
+                    <img class="logo-container__img" src="assets/intel.png" alt="intel-logo">
+                </figure>
+                <p class="text-main">JUNTAS HACEMOS LA <br /> DIFERENCIA UTILIZA EL <br /> HASHTAG <span>#VOYSINMIEDO</span> Y DESCUBRE EL RESULTADO.</p>
+            </div>
+        </div>
+        <div class="right">
+            <p class="twittea">TWITTEA</p>
+            <div class="timer">
+                <p class="timer-text">
+                    <span id="minutos">01</span><span class="dots">:</span><span id="segundos">00</span>
+                </p>
+            </div>
+            <div class="app" >
+
+            </div>
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="node_modules/moment/moment.js"></script>
+<script type="text/javascript" src="node_modules/moment-timer/lib/moment-timer.js"></script>
+<script type="text/javascript" src="index.js"></script>
+
+</html>
